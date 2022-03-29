@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1007840241350",
+    "project_id": "dummydating-47b28",
+    "storage_bucket": "dummydating-47b28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007840241350:android:882a8dccbe208c72ff19c7",
+        "android_client_info": {
+          "package_name": "com.example.dummy_dating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007840241350-4o4jrhpn0fdodp6hmq70kc1kv7snq7u6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByhrKIThYkuVRqcPJ2GLfG3WvSiF-50Vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007840241350-4o4jrhpn0fdodp6hmq70kc1kv7snq7u6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

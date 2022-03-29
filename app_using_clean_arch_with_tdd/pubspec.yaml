@@ -1,0 +1,29 @@
+name: app_using_clean_arch_with_tdd
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  data_connection_checker: ^0.3.4
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - test/core/fixtures/number_trivia_int_response.json
+    - test/core/fixtures/number_trivia_double_response.json

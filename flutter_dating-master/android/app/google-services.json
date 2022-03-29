@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "364662465535",
+    "firebase_url": "https://folx-23569.firebaseio.com",
+    "project_id": "folx-23569",
+    "storage_bucket": "folx-23569.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364662465535:android:edb9c612cd6c8a1e54fdca",
+        "android_client_info": {
+          "package_name": "com.folx_dating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364662465535-7hvaan9c2lblfctl65ug8uoveotkpct4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.folx_dating",
+            "certificate_hash": "8543dd465a27b1ea20b80279226f05ce468a354a"
+          }
+        },
+        {
+          "client_id": "364662465535-30avkn0oefp2eg2fkk56ro1u2d57gbna.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOXuMTBRufnCEMrcpkTREy052f3qFkx70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364662465535-30avkn0oefp2eg2fkk56ro1u2d57gbna.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "364662465535-0msfl8gt00ruc61jsai7h7b7ghnjfptm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.folxDating"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

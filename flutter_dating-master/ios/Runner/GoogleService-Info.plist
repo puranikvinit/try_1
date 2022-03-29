@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>364662465535-0msfl8gt00ruc61jsai7h7b7ghnjfptm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.364662465535-0msfl8gt00ruc61jsai7h7b7ghnjfptm</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>364662465535-7hvaan9c2lblfctl65ug8uoveotkpct4.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD5Ku1jK_xT9gDyzn9yQoPOPZue3liCBt0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>364662465535</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.folx.dating</string>
+	<key>PROJECT_ID</key>
+	<string>folx-23569</string>
+	<key>STORAGE_BUCKET</key>
+	<string>folx-23569.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:364662465535:ios:ea90380f80e3a5a054fdca</string>
+	<key>DATABASE_URL</key>
+	<string>https://folx-23569.firebaseio.com</string>
+</dict>
+</plist>

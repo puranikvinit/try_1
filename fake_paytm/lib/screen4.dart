@@ -2,12 +2,14 @@
 //OM JAI DURGE MAA
 
 import 'package:flutter/material.dart';
+import 'package:flutter_sms/flutter_sms.dart';
 
 class PaymentSuccess extends StatefulWidget {
   String recUpi;
   String recName;
   String amount;
-  PaymentSuccess({Key key, this.recName, this.recUpi, this.amount})
+  String phone;
+  PaymentSuccess({Key key, this.recName, this.recUpi, this.amount, this.phone})
       : super(key: key);
 
   @override
@@ -18,11 +20,14 @@ class _PaymentSuccessState extends State<PaymentSuccess> {
   String rUpi;
   String rName;
   String amt;
+  String phno;
   @override
   void initState() {
     rUpi = widget.recUpi;
     rName = widget.recName;
     amt = widget.amount;
+    phno = widget.phone;
+    sendSuccessMsg(rName,amt,phno);
     super.initState();
   }
 
@@ -66,5 +71,14 @@ class _PaymentSuccessState extends State<PaymentSuccess> {
         ],
       ),
     );
+  }
+
+  sendSuccessMsg(String name, String amt, String phno) async {
+    String _result =
+        await sendSMS(message: "Rs.$amt to $rUpi", recipients: [phno])
+            .catchError((onError) {
+      print(onError);
+    });
+    print(_result);
   }
 }

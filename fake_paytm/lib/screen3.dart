@@ -26,6 +26,8 @@ class _PaymentScreenState extends State<PaymentScreen> {
   @override
   Widget build(BuildContext context) {
     final amtInp = TextEditingController();
+    final phnoInp = TextEditingController();
+
     return Scaffold(
       appBar: AppBar(
         title: Text("PayTm"),
@@ -60,6 +62,31 @@ class _PaymentScreenState extends State<PaymentScreen> {
             ),
           ),
           Container(height: MediaQuery.of(context).size.height * 0.03),
+          Text(
+            "Enter Phone Number:",
+            style: TextStyle(fontSize: 20.0),
+          ),
+          Container(height: MediaQuery.of(context).size.height * 0.03),
+          Container(
+            height: MediaQuery.of(context).size.height * 0.05,
+            width: MediaQuery.of(context).size.height * 0.12,
+            decoration: BoxDecoration(
+              border: Border.all(),
+            ),
+            child: Center(
+              child: TextFormField(
+                controller: phnoInp,
+                keyboardType: TextInputType.phone,
+                validator: (value) => phnoInp.text,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 20.0,
+                ),
+                decoration: InputDecoration(border: InputBorder.none),
+              ),
+            ),
+          ),
+          Container(height: MediaQuery.of(context).size.height * 0.03),
           Container(
             child: GestureDetector(
               onTap: () {
@@ -71,6 +98,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                         recName: rName,
                         recUpi: rUpi,
                         amount: amtInp.text,
+                        phone: phnoInp.text,
                       );
                     },
                   ),
